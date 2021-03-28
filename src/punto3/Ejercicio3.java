@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 import Principal.IEjercicio;
 
+import javax.swing.*;
+
 public class Ejercicio3 implements IEjercicio{
 
 	public void ejecutar() {
@@ -23,7 +25,7 @@ public class Ejercicio3 implements IEjercicio{
 		}
 		
 		cursoProgramacionC.mostrarPorPantalla();
-		
+
 	}
 	
 
