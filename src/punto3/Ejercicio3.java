@@ -12,12 +12,14 @@ public class Ejercicio3 implements IEjercicio{
 		Scanner sc = new Scanner(System.in);
 		
 		Programacion_C cursoProgramacionC = new Programacion_C();
-		
-		int limit = 2;
-		while(limit>2)
+
+
+		int count = 0;
+		while(count<2)
 		{
-			cursoProgramacionC.agregarAlumno(new Alumno());
-			limit++;
+			Alumno carlos = new Alumno("Carlos_"+count);
+			cursoProgramacionC.agregarAlumno(carlos);
+			count++;
 		}
 		
 		cursoProgramacionC.mostrarPorPantalla();
