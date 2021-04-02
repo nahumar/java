@@ -35,7 +35,7 @@ public class Ejercicio5 implements IEjercicio{
 
 			tienda.ingresarCintaDeVideo(cinta);
 
-			System.out.println("¿Continuar carga (Si:1/No:0)?");
+			System.out.println("Continuar carga (Si:1/No:0)?");
 			int continuar = sc.nextInt();
 
 			if ( continuar == 0 ) break;
