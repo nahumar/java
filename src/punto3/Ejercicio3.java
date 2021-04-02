@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 import Principal.IEjercicio;
 
-import javax.swing.*;
-
 public class Ejercicio3 implements IEjercicio{
 
 	public void ejecutar() {
@@ -17,9 +15,9 @@ public class Ejercicio3 implements IEjercicio{
 
 
 		int count = 0;
-		while(count<2)
+		while(count<10)
 		{
-			Alumno carlos = new Alumno("Carlos_"+count);
+			AlumnoEjercicio7 carlos = new AlumnoEjercicio7("Carlos_"+count);
 			cursoProgramacionC.agregarAlumno(carlos);
 			count++;
 		}

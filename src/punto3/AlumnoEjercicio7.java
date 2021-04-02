@@ -1,10 +1,10 @@
 package punto3;
 
-public class Alumno
+public class AlumnoEjercicio7
 {
 	public String nombre;
 
-	public Alumno ( String nombre )
+	public AlumnoEjercicio7(String nombre )
 	{
 		this.nombre = nombre;
 	}

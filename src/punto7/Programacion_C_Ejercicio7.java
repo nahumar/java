@@ -1,13 +1,13 @@
-package punto3;
+package punto7;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Programacion_C {
+public class Programacion_C_Ejercicio7 {
 	
 	private List<AlumnoEjercicio7> alumnos;
 
-	public Programacion_C()
+	public Programacion_C_Ejercicio7()
 	{
 		this.alumnos = new ArrayList<AlumnoEjercicio7>();
 	}
@@ -20,7 +20,7 @@ public class Programacion_C {
 	public void mostrarPorPantalla()
 	{
 		for (AlumnoEjercicio7 alumno : alumnos) {
-			System.out.println(alumno);
+			alumno.mostrarPorPantalla();
 		}
 	}
 }
