@@ -10,7 +10,7 @@ public class Ejercicio7 implements IEjercicio{
 
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
-		
+
 		Programacion_C_Ejercicio7 curso = new Programacion_C_Ejercicio7();
 
 		while(true)

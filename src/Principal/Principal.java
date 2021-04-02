@@ -1,14 +1,12 @@
 package Principal;
 
-import punto3.Ejercicio3;
-import punto6.Ejercicio6;
-import punto7.Ejercicio7;
+import punto8.Ejercicio8;
 
 public class Principal {
 
 	public static void main(String[] args) {
 		
-		IEjercicio ejercicio = new Ejercicio7();
+		IEjercicio ejercicio = new Ejercicio8();
 				
 		ejercicio.ejecutar();
 
