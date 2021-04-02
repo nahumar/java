@@ -29,4 +29,5 @@ public class Amigo {
 				", telefono=" + telefono +
 				'}');
 	}
+
 }
